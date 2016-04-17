@@ -1,0 +1,524 @@
+Tue May 19 12:58:03 2015    E:\gitFactory\CProfileAnalysisTool\input_stuck\duration_FightClub_1800_20150519125802
+
+   196446178 function calls (196446057 primitive calls) in 127.531 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+ 22539449    4.380    0.000    4.380    0.000 {method 'acquire' of 'thread.lock' objects}
+ 22539449    1.815    0.000    1.815    0.000 {method 'release' of 'thread.lock' objects}
+ 13622426   32.359    0.000   51.756    0.000 {select.select}
+ 13615482    1.875    0.000    1.878    0.000 {getattr}
+ 13614044    6.706    0.000    9.512    0.000 j:\x9_tmp\x9\res\entities\common\lib\socket.o:223(meth)
+ 13614043    0.933    0.000    0.933    0.000 {method 'fileno' of '_socket.socket' objects}
+ 13614043   16.081    0.000   87.459    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:335(_recv)
+ 13614043    6.082    0.000   67.575    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\channel.o:41(poll)
+ 13614043    9.886    0.000   19.398    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:163(fileno)
+ 13614043    9.803    0.000   61.493    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:35(poll)
+ 13614043    6.780    0.000   94.240    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:374(serve)
+  9110170    0.796    0.000    0.796    0.000 {len}
+  8979800    1.333    0.000    1.333    0.000 {time.time}
+  8925390   17.041    0.000  114.385    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:117(poll)
+   213719    0.304    0.000    0.304    0.000 {BigWorld.callback}
+   180699    0.087    0.000    0.087    0.000 {BigWorld.time}
+   172902    1.235    0.000    3.236    0.000 j:\x9_tmp\x9\res\entities\client\helper\timermanager.o:98(_update)
+   172902    0.261    0.000    0.408    0.000 j:\x9_tmp\x9\res\entities\common\lib\collections.o:116(itervalues)
+   172902    0.800    0.000    1.668    0.000 j:\x9_tmp\x9\res\entities\client\helper\timermanager.o:107(_update_internal)
+   172902    0.147    0.000    0.147    0.000 j:\x9_tmp\x9\res\entities\common\lib\collections.o:73(__iter__)
+   172902    0.378    0.000    0.460    0.000 j:\x9_tmp\x9\res\entities\client\helper\timermanager.o:44(pop_ge)
+    28426    0.024    0.000    0.120    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:406(do_command)
+    28426    0.096    0.000    0.096    0.000 {C_ui.do_command}
+    26575    0.010    0.000    0.010    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:218(getPollInterval)
+    26575    6.374    0.000  122.078    0.005 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:147(poll2)
+    26575    0.052    0.000  122.649    0.005 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:246(<lambda>)
+    26575    0.182    0.000    0.189    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:183(adjustInterval)
+    26575    0.014    0.000    0.014    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:221(getPollTimeout)
+    26575    0.256    0.000  122.597    0.005 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:244(poll)
+    16936    0.008    0.000    0.008    0.000 {method 'append' of 'list' objects}
+    14951    0.052    0.000    0.052    0.000 {hasattr}
+    13161    0.004    0.000    0.004    0.000 {method 'get' of 'dict' objects}
+    11580    0.011    0.000    0.011    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1424(__running_get)
+    11520    0.003    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1406(__count_get)
+    10096    0.007    0.000    0.053    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:275(get_abs_coord)
+     8383    0.003    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\common\lib\asyncore.o:324(readable)
+     8383    0.082    0.000    0.209    0.000 j:\x9_tmp\x9\res\entities\common\lib\asyncore.o:125(poll)
+     8383    0.034    0.000    0.323    0.000 j:\x9_tmp\x9\res\entities\client\tw2.o:337(loginSocketTick)
+     8383    0.007    0.000    0.007    0.000 {method 'items' of 'dict' objects}
+     8383    0.025    0.000    0.044    0.000 j:\x9_tmp\x9\res\entities\common\lib\gt\gtdispatcher.o:112(writable)
+     8383    0.003    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\common\lib\stringio.o:38(_complain_ifclosed)
+     8383    0.017    0.000    0.019    0.000 j:\x9_tmp\x9\res\entities\common\lib\stringio.o:258(getvalue)
+     8383    0.036    0.000    0.284    0.000 j:\x9_tmp\x9\res\entities\common\lib\asyncore.o:205(loop)
+     6665    0.010    0.000    0.033    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:294(get_visible)
+     6665    0.005    0.000    0.038    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:333(__visible_get)
+     5760    0.002    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1416(__delay_get)
+     5760    0.074    0.000    0.592    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1448(run_func)
+     5194    0.004    0.000    0.004    0.000 {method 'replace' of 'str' objects}
+     5080    0.013    0.000    0.061    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:740(set_text)
+     5080    0.006    0.000    0.214    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:752(__text_set)
+     5052    0.002    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1594(get_textalign)
+     5052    0.008    0.000    0.020    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:366(__width_get)
+     5052    0.003    0.000    0.012    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:379(get_size)
+     5052    0.003    0.000    0.005    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1578(__textalign_get)
+     5051    0.002    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:738(get_text)
+     5051    0.003    0.000    0.005    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:750(__text_get)
+     5048    0.029    0.000    0.208    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1612(set_text)
+     5048    0.004    0.000    0.085    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:286(__abscoord_get)
+     5048    0.012    0.000    0.112    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:251(get_coord)
+     5048    0.017    0.000    0.080    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1628(get_abs_coord)
+     4908    0.002    0.000    0.002    0.000 {BigWorld.player}
+     4300    0.004    0.000    0.004    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:18(instance)
+     3950    0.002    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:74(__state_get)
+     3637    0.003    0.000    0.017    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:335(__visible_set)
+     3600    0.007    0.000    0.019    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1504(set_lock_state)
+     3600    0.011    0.000    0.080    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\team\teamsystempanel.o:1130(set_info)
+     3343    0.010    0.000    0.012    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:378(get_ui)
+     3016    0.001    0.000    0.001    0.000 {method 'iteritems' of 'dict' objects}
+     3013    0.004    0.000    0.006    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:268(_layout_aligns)
+     3001    0.009    0.000    0.039    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:780(_text_font_changed)
+     2301    0.009    0.000    0.022    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:30(get_ui)
+     2239    0.003    0.000    0.003    0.000 {min}
+     2144    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:307(__mode_get)
+     2095    0.002    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:204(init)
+     1916    0.005    0.000    0.008    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:562(state)
+     1860    0.003    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1450(getSpaceNo)
+     1860    0.001    0.000    0.001    0.000 {BigWorld.getFps}
+     1800    0.007    0.000    0.234    0.000 j:\x9_tmp\x9\res\entities\client\helper\backgroundmusic.o:283(on_music_check)
+     1800    0.009    0.000    0.011    0.000 j:\x9_tmp\x9\res\entities\client\guis\fpslabel.o:54(receive)
+     1800    0.011    0.000    0.012    0.000 j:\x9_tmp\x9\res\entities\client\helper\backgroundmusic.o:317(play_music)
+     1800    0.006    0.000    0.014    0.000 j:\x9_tmp\x9\res\entities\client\iavatar.o:163(callback)
+     1800    0.030    0.000    0.245    0.000 j:\x9_tmp\x9\res\entities\client\guis\fpslabel.o:34(on_update_delay)
+     1800    0.013    0.000    0.061    0.000 j:\x9_tmp\x9\res\entities\client\helper\backgroundmusic.o:292(check_back_music)
+     1800    0.012    0.000    0.042    0.000 j:\x9_tmp\x9\res\entities\client\iplayer.o:113(receive_delay_package)
+     1800    0.018    0.000    0.028    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:354(nowInCity)
+     1800    0.165    0.000    0.165    0.000 {Sound.isMusicStopped}
+     1800    0.028    0.000    0.031    0.000 j:\x9_tmp\x9\res\entities\client\guis\fpslabel.o:43(send)
+     1800    0.005    0.000    0.008    0.000 j:\x9_tmp\x9\res\entities\client\iavatar.o:160(send_sys_time)
+     1417    0.003    0.000    0.003    0.000 {method 'split' of 'str' objects}
+     1206    0.001    0.000    0.001    0.000 {method 'rfind' of 'str' objects}
+     1206    0.015    0.000    0.044    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:86(_import_hook)
+     1206    0.010    0.000    0.012    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:151(_determine_import_context)
+     1172    0.003    0.000    0.008    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:230(_finish_import)
+     1172    0.001    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:323(_load_tail)
+     1133    0.003    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:335(_import_fromlist)
+      993    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:384(__active_get)
+      993    0.004    0.000    0.019    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:305(in_loading)
+      993    0.003    0.000    0.023    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:62(in_loading)
+      959    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:244(handle_mouse_event)
+      959    0.001    0.000    0.004    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:195(handle_mouse_event)
+      959    0.012    0.000    0.123    0.000 j:\x9_tmp\x9\res\entities\client\tw2.o:255(handleMouseEvent)
+      959    0.011    0.000    0.051    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:441(handle_mouse_event)
+      959    0.002    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:488(handle_mouse_event)
+      939    0.015    0.000    0.015    0.000 {C_ui.handleMouseEvent}
+      939    0.002    0.000    0.007    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:191(handle_mouse_event)
+      939    0.004    0.000    0.016    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:442(handle_mouse_event)
+      939    0.001    0.000    0.001    0.000 {GUI.handleMouseEvent}
+      939    0.003    0.000    0.004    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\citymanager.o:173(handle_mouse_event)
+      901    0.017    0.000    0.017    0.000 {ResMgr.openSection}
+      720    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\common\raceteamrecruitinfo.o:17(getDictFromObj)
+      720    0.004    0.000    0.004    0.000 j:\x9_tmp\x9\res\entities\common\raceteamrecruit.o:5(__init__)
+      720    0.006    0.000    0.010    0.000 j:\x9_tmp\x9\res\entities\common\raceteamrecruitinfo.o:6(createObjFromDict)
+      718    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:201(event_callback)
+      360    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\team\teammanager2.o:11(instance)
+      360    0.006    0.000    0.087    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\team\teamsystempanel.o:1111(notify_raceteam_recruits)
+      360    0.001    0.000    0.095    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\team\teammanager2.o:29(notify_recruits)
+      360    0.001    0.000    0.096    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:2023(notify_race_team_recruits)
+      360    0.002    0.000    0.093    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\team\teammanager2.o:94(_notify_recruits)
+      360    0.004    0.000    0.005    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\team\teamsystempanel.o:771(on_recruit_check)
+      360    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\raceteamrecruitinfo.o:27(isSameType)
+      215    0.000    0.000    0.000    0.000 {method 'has_key' of 'dict' objects}
+      201    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+      189    0.001    0.000    0.006    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:265(_import_one)
+      186    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+      180    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\system\appsetting.o:129(__getitem__)
+      180    0.001    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\system\appsetting.o:162(get)
+      180    0.000    0.000    0.000    0.000 {built-in method py_readString}
+      151    0.000    0.000    0.006    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:353(_do_import)
+      120    0.000    0.000    0.000    0.000 {BigWorld.needStatisticsInfo}
+      120    0.000    0.000    0.000    0.000 {built-in method py_has_key}
+      112    0.001    0.000    0.005    0.000 j:\x9_tmp\x9\res\entities\client\tx_importer.o:43(get_code)
+       96    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:586(mode)
+       82    0.000    0.000    0.000    0.000 {built-in method py_get}
+       71    0.000    0.000    0.000    0.000 {method 'read' of 'cStringIO.StringI' objects}
+       68    0.000    0.000    0.000    0.000 {method 'digest' of '_md5.md5' objects}
+       68    0.000    0.000    0.000    0.000 {_md5.new}
+       68    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\scripts\rpyc_gametools.o:92(instance)
+       60    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:759(get_mac_address)
+       60    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:204(upload_x9_client_info)
+       60    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:524(get_curr_time)
+       60    0.002    0.000    0.012    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:210(do_it_next_frame)
+       60    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:769(get_delay)
+       60    0.000    0.000    0.000    0.000 {BigWorld.desktopWidth}
+       60    0.001    0.000    0.001    0.000 {BigWorld.getStatisticsInfo}
+       60    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1921(recordEntityInfo)
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\uuid.o:476(getnode)
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\uuid.o:101(__init__)
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\mapconfig.o:90(getSpaceType)
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:711(save_log)
+       60    0.000    0.000    0.000    0.000 {method 'count' of 'list' objects}
+       60    0.001    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:689(save_cell_log)
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:241(new_client_info_log)
+       60    0.000    0.000    0.000    0.000 {built-in method py_list}
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\uuid.o:265(get_hex)
+       60    0.000    0.000    0.000    0.000 {BigWorld.desktopHeight}
+       60    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:623(get_server_time)
+       59    0.001    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\iavatar.o:180(on_sync_time)
+       58    0.000    0.000    0.000    0.000 {BigWorld.isPublishedVersion}
+     57/6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:325(_load)
+     56/8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:201(_dump)
+       51    0.000    0.000    0.000    0.000 {built-in method py_set_float}
+       50    0.002    0.000    0.002    0.000 {C_ui.cursor_show}
+       48    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:1445(handle_key_event)
+       48    0.000    0.000    0.000    0.000 {built-in method py_set_int8}
+       42    0.000    0.000    0.000    0.000 {built-in method py_set_int32}
+       42    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\appsetting.o:1016(get_setting)
+       42    0.000    0.000    0.000    0.000 {time.clock}
+       39    0.000    0.000    0.407    0.010 j:\x9_tmp\x9\res\entities\common\callbackhelper.o:72(__call__)
+       39    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\callbackhelper.o:67(__init__)
+       37    0.000    0.000    0.000    0.000 {BigWorld.dcursor}
+       36    0.000    0.000    0.000    0.000 {built-in method py_get_int8}
+       36    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:66(instance)
+       35    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:176(check_proc_info)
+       34    0.001    0.000    0.022    0.001 j:\x9_tmp\x9\res\entities\client\tw2.o:268(handleKeyEvent)
+       34    0.001    0.000    0.012    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:465(handle_key_event)
+       34    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\guis\cursor.o:92(handle_key_event)
+       34    0.000    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\scripts\rpyc_gametools.o:122(handleKeyEvent)
+       33    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:3538(__value_get)
+       33    0.001    0.000    0.001    0.000 {C_ui.handleKeyEvent}
+       31    0.000    0.000    0.000    0.000 {GUI.handleKeyEvent}
+       30    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:311(__visible_get)
+       28    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:105(_dump_int)
+       25    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:39(fget)
+       24    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:192(get_visible)
+       23    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:109(__visible_set)
+       22    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\compat.o:17(BYTES_LITERAL)
+       22    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:569(handle_key_event)
+       22    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:187(handle_key_event)
+       22    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       22    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:497(set_player_yaw_enable)
+       22    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:1802(resetDC)
+       21    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\system\shortcutmanager.o:171(handle_key_event)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:269(pre_ShortcutManager_handle_key_event)
+       21    0.000    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\citymanager.o:129(handle_key_event)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:82(in_sysbox_state)
+     21/8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:178(_dump_tuple)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\gridmanager.o:79(handle_key_event)
+       21    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:214(on_message)
+       21    0.000    0.000    0.005    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:196(handle_key_event)
+       21    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:451(handle_key_event)
+       21    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\clienthookmanager.o:184(wrapped_func)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\gridmanager.o:42(is_empty)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:185(update_halfbody_weight)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:572(child_state)
+       21    0.000    0.000    0.000    0.000 {built-in method py_get_float}
+       19    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:301(__entity_get)
+       18    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\tipsmgr.o:25(active)
+       18    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:524(active_tips)
+       18    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\tipsmgr.o:88(active)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\tipsmgr.o:905(clear)
+       16    0.001    0.000    0.001    0.000 {C_ui.wapCursor}
+       16    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\cursor.o:103(set_image)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\cursor.o:140(enable_handle_mouse)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\cursor.o:137(is_lock)
+       16    0.000    0.000    0.007    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1109(on_message)
+       15    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\tw2.o:241(onAppActivate)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1949(unpackMoveDir)
+       15    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:379(update_bh_speed)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1946(packMoveDir)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:1494(_do_move_handle_key)
+       15    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:317(do_move_update_helper)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:653(set_hero_only_move)
+       15    0.001    0.000    0.001    0.000 {built-in method py_send_event}
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:427(reset_mouse_state)
+       15    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:1489(do_move_bh)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\modelfx.o:168(attachFX)
+       15    0.000    0.000    0.000    0.000 {built-in method py_set_vector4}
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:1521(set_move_dir)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:314(__active_set)
+       15    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:592(active)
+       15    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:394(do_act_move)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:405(hide_popup)
+       14    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:501(__font_set)
+       14    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:117(__color_set)
+       13    0.000    0.000    0.000    0.000 {BigWorld.entity}
+       13    0.000    0.000    0.000    0.000 {method 'recv' of '_socket.socket' objects}
+       13    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:174(read)
+       13    0.000    0.000    0.007    0.001 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1530(on_message)
+       13    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:763(__font_get)
+       13    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:757(get_font)
+       13    0.000    0.000    0.000    0.000 {method 'unpack' of 'Struct' objects}
+     13/6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:283(_load_tup2)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\boundingboxnodemgr.o:14(instance)
+       12    0.000    0.000    0.000    0.000 {method 'pack' of 'Struct' objects}
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:257(set_coord)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:263(__coord_set)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:409(__spacing_set)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:403(__edgeColor_set)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:365(__coord_set)
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\engineutils.o:11(handleKeyEvent)
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:840(_ensure_valid_model_helper)
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:1784(tryReleaseDC)
+       11    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:577(p)
+       11    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:1759(lockDC)
+       11    0.000    0.000    0.000    0.000 {BigWorld.isDebugRTPool}
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:599(catch_key)
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:241(handle_key_event)
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:1798(isDCLock)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1092(get_enabled)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\system\camera.o:108(current)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\notification\notificationcenter.o:96(subscribe_event)
+       10    0.001    0.000    0.001    0.000 {C_ui.cursor_pos}
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:253(set_name_visible)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1099(__enabled_get)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:373(__entity_set)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:244(on_tips)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:121(switch_filter)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:605(get_hero)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:55(fget)
+      9/8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:362(dumpable)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:206(get_model_speed)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\tipsmgr.o:128(focues)
+        8    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\tipsmgr.o:307(clear)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:334(dump)
+        8    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\channel.o:56(send)
+        8    0.023    0.003    0.023    0.003 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:491(__text_set)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:243(_box)
+        8    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:222(_send)
+        8    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:194(write)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:210(instance)
+        7    0.000    0.000    0.000    0.000 {Behavior.BehaviorWorld}
+        7    0.001    0.000    0.001    0.000 {setattr}
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\loadingui.o:253(is_scene_load_finished)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:55(is_scene_load_finished)
+      7/6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:286(_load_tup3)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\channel.o:44(recv)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:234(update_visible)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:345(load)
+        6    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:351(_dispatch)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:316(_load_int_l1)
+        6    0.000    0.000    0.000    0.000 {built-in method py_updateCollisionFilterOnPhantom}
+        6    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:233(_send_reply)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:2174(is_entity_validate)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\boundingboxnodemgr.o:8(get_model_node_data)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:261(_unbox)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:270(client_move_cb)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:222(reset)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:666(get_new_level)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:319(__name_get)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\netref.o:74(asyncreq)
+        6    0.000    0.000    0.000    0.000 {ResMgr.fileExist}
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:313(__visible_set)
+        6    0.000    0.000    0.000    0.000 {cStringIO.StringIO}
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:167(enable_slaver_mode)
+        6    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:296(_dispatch_request)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:89(init_filter)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:328(get_lv)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\netref.o:124(__del__)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:99(get_label)
+        6    0.001    0.000    0.001    0.000 {method 'send' of '_socket.socket' objects}
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:1303(set_visible)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:107(__visible_get)
+        5    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        5    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:97(set_appearance)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:256(set_hero_type)
+        5    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:76(_dump_none)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\weaponmodel.o:20(clear_weapon_models)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:519(stop_subcue)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:261(__coord_get)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:280(_load_tup1)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1621(get_coord)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\modelfx.o:212(attachFX)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\colls.o:81(decref)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1624(set_coord)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:154(stop_subcue)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:520(_handle_del)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:3180(__text_get)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:282(update_max_dist)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:120(polling_until_bh_ready)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:217(init_ui)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:476(enable_char_collid)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\behaviorlodmanager.o:18(__init__)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:221(set_am_caps)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:230(setModelMaterial)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:238(post_attributes_setting)
+        3    0.000    0.000    0.000    0.000 {BigWorld.fetchModel}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:859(_gen_model_path_helper)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:191(init_shadow)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:101(reset_speed)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:225(set_speed_right)
+        3    0.000    0.000    0.000    0.000 {built-in method py_node}
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:59(enterWorld)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:249(process_config_fashion)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:182(close)
+        3    0.000    0.000    0.321    0.107 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:107(link_bh)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:197(set_simple_shadow)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:141(get_fashion_config)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:321(__name_set)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\iclient.o:184(init_toplogo)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:164(get_lod_mode)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:456(update_collid_layer)
+        3    0.000    0.000    0.000    0.000 {built-in method py_distance}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\tw2.o:251(enable_drag_area)
+        3    0.000    0.000    0.000    0.000 {Havok.calcFilterInfo}
+        3    0.000    0.000    0.054    0.018 j:\x9_tmp\x9\res\entities\client\fashiondriver.o:72(load_weapon_models)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:397(__biasPos_set)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:154(enable_bh_lod)
+        3    0.000    0.000    0.000    0.000 {built-in method py_isBehaviorReady}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:240(set_speed_forward)
+        3    0.000    0.000    0.321    0.107 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:138(init_behavior)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:307(__id_set)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:125(reset_bh_pos)
+        3    0.000    0.000    0.000    0.000 {built-in method py_caps}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\physiqueinfo.o:8(createObjFromDict)
+        3    0.000    0.000    0.000    0.000 {built-in method py_setAttachMode}
+        3    0.000    0.000    0.000    0.000 {built-in method py_setCollisionFilterInfo}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:197(gen_havok_path)
+        3    0.000    0.000    0.403    0.134 j:\x9_tmp\x9\res\entities\client\fashiondriver.o:29(_post_init_base_models)
+        3    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\fashiondriver.o:20(init_fashion_model)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\entityassistor.o:22(__init__)
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:131(delay_init)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:50(__init__)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:913(wrapper)
+        3    0.004    0.001    0.004    0.001 j:\x9_tmp\x9\res\entities\client\fashiondriver.o:86(set_default_cos)
+        3    0.000    0.000    0.000    0.000 {built-in method py_setHP}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:133(split_fashions)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\avatar.o:313(init_toplogo)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iavatar.o:17(__init__)
+        3    0.000    0.000    0.345    0.115 j:\x9_tmp\x9\res\entities\client\avatar.o:287(init_model_finished)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:112(on_behavior_ready)
+        3    0.000    0.000    0.000    0.000 {built-in method py_set_bhname}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:216(set_speed_left)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:120(init_bounding_box)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:850(on_message)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\ireload.o:20(__get__)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:296(__entity_set)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\physique.o:107(__init__)
+        3    0.143    0.048    0.143    0.048 {built-in method py_load_behavior}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\physique.o:115(_normalizeInfoDict)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:287(update_name_height)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:261(load_default_speed)
+        3    0.002    0.001    0.405    0.135 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:104(async_init_model_post)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:265(update_entity)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:166(update_dist_fader)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:62(get_logo)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:224(init_targeting)
+        3    0.000    0.000    0.000    0.000 {BigWorld.enablePYServerDetail}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:371(<genexpr>)
+        3    0.000    0.000    0.000    0.000 {built-in method py_setEventCallback}
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:92(init_fashion_model_async)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:2639(on_message)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:465(get_collid_filter_info)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:518(distance)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:176(set_bh_lod_stratry)
+        3    0.000    0.000    0.345    0.115 j:\x9_tmp\x9\res\entities\client\avatar.o:248(on_model_ready)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:234(set_speed_back)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:147(get_logo)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:50(get_bh_filenames)
+        3    0.000    0.000    0.000    0.000 {built-in method py_setClientMoveDirCallback}
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:55(gen_model_pathes)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:104(gen_cos_pathes)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:26(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method py_enable_ani_motion}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avatar.o:85(get_behavior_load_config)
+        3    0.000    0.000    0.000    0.000 {built-in method py_set_lod_stratry}
+        3    0.000    0.000    0.000    0.000 {built-in method py_setBoundingBoxNodes}
+        3    0.000    0.000    0.000    0.000 {built-in method py_setCueCallback}
+        3    0.000    0.000    0.143    0.048 j:\x9_tmp\x9\res\entities\client\helper\modelfactory.o:289(load_bh_behavior)
+        3    0.000    0.000    0.023    0.008 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:371(update_lvname)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:847(_gen_fashion_path_helper)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:253(load_cue)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:94(init_bh_vars)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\weaponmodel.o:11(__init__)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:73(__init__)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:108(give_label)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:222(_load_empty_tuple)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:476(create)
+        2    0.015    0.007    0.015    0.007 {built-in method py_loadCueInfo}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:152(closed)
+        2    0.162    0.081    0.162    0.081 {built-in method py_loadProject}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\mainmenu.o:804(on_sensor_leave)
+        2    0.000    0.000    0.000    0.000 {method 'union' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 {GUI.addRoot}
+        2    0.000    0.000    0.000    0.000 {id}
+        2    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1195(on_message)
+        2    0.000    0.000    0.000    0.000 {all}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:155(close)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:65(__getattr__)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\random.o:358(uniform)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:447(_async_request)
+        2    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        2    0.000    0.000    0.000    0.000 {next}
+        2    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\colls.o:92(__getitem__)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:149(_dump_str)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:229(_send_request)
+        2    0.000    0.000    0.000    0.000 {Sound.playSimple}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:18(setAlphaConfig)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:469(__init__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:169(give_logo)
+        1    0.001    0.001    0.001    0.001 {BigWorld.get_machine_serial}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:205(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method py_scale}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\service.o:59(on_disconnect)
+        1    0.000    0.000    0.000    0.000 {built-in method py_nodeList}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\weaponmodel.o:47(processHP)
+        1    0.000    0.000    0.000    0.000 {Pixie.fetch}
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:65(on_proc_check)
+        1    0.000    0.000    0.000    0.000 {BigWorld.loadingStep}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:475(_check_attr)
+        1    0.000    0.000    0.054    0.054 j:\x9_tmp\x9\res\entities\client\helper\weaponmodel.o:28(load_weapon_models)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:165(_cleanup)
+        1    0.000    0.000    0.000    0.000 {built-in method py_getMatterList}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:152(__del__)
+        1    0.000    0.000    0.000    0.000 {built-in method py_force}
+        1    0.000    0.000    0.000    0.000 {method 'shutdown' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\changepanela.o:160(hide_all)
+        1    0.000    0.000    0.000    0.000 {max}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\editor_data\ui_template\py\chatdialog.o:37(on_leave)
+        1    0.006    0.006    0.006    0.006 {BigWorld.showWindow}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\colls.o:52(clear)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:349(clear_tag)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\socket.o:192(close)
+        1    0.000    0.000    0.000    0.000 {_weakref.proxy}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:211(leaveWorld)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:542(_handle_getattr)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:355(update_tag)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:332(hijack_check)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:540(set_trinket)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\editor_data\ui_template\py\mainmenutop.o:116(on_teach_btn_enter)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:536(_handle_call)
+        1    0.041    0.041    0.054    0.054 j:\x9_tmp\x9\res\entities\client\helper\weaponmodel.o:34(load_sword_models)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:564(_hijack_real_check)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:450(async_request)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:163(on_proc_code2)
+        1    0.002    0.002    0.003    0.003 j:\x9_tmp\x9\res\entities\client\avatar.o:73(leaveWorld)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\mainmenu.o:801(on_sensor_enter)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:151(check_by_proc)
+        1    0.000    0.000    0.000    0.000 {BigWorld.schedule_proc_code}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\async.o:14(__init__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\hijack.o:323(do_check)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\editor_data\ui_template\py\mainmenutop.o:119(on_teach_btn_leave)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\modelfx.o:34(attachFX)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\brine.o:266(_load_str_l1)
+        1    0.000    0.000    0.000    0.000 {BigWorld.serverTime}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\editor_data\ui_template\py\chatdialog.o:34(on_enter)
+        1    0.000    0.000    0.000    0.000 {built-in method py_attach}
+        1    0.000    0.000    0.006    0.006 j:\x9_tmp\x9\res\entities\client\guis\city\mainmenu.o:826(on_minimize_btn_click)
+        1    0.000    0.000    0.000    0.000 {isinstance}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:242(destroy)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\colls.o:75(clear)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:491(_access_attr)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:208(init_config)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\city\changepanela.o:122(manager)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\compat.o:79(get_exc_errno)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\channel.o:31(close)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\lib\colls.o:63(add)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:69(close)
+        1    0.000    0.000    0.000    0.000 {sys.exc_info}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+

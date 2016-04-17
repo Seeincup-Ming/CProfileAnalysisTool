@@ -1,0 +1,635 @@
+Tue May 19 14:26:24 2015    E:\gitFactory\CProfileAnalysisTool\CProfileAnalysisTool\input_stuck\stuck_2015-05-19 14-26-24 933.stat
+
+   78610 function calls (78528 primitive calls) in 0.069 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     8958    0.002    0.000    0.002    0.000 {method 'acquire' of 'thread.lock' objects}
+     8958    0.001    0.000    0.001    0.000 {method 'release' of 'thread.lock' objects}
+4771/4759    0.001    0.000    0.001    0.000 {getattr}
+     4743    0.000    0.000    0.000    0.000 {len}
+     4506    0.001    0.000    0.001    0.000 {time.time}
+     4480    0.010    0.000    0.016    0.000 {select.select}
+     4479    0.007    0.000    0.039    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:117(poll)
+     4479    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+     4479    0.005    0.000    0.028    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:335(_recv)
+     4479    0.002    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\common\lib\socket.o:223(meth)
+     4479    0.003    0.000    0.006    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:163(fileno)
+     4479    0.003    0.000    0.019    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\stream.o:35(poll)
+     4479    0.002    0.000    0.030    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\protocol.o:374(serve)
+     4479    0.002    0.000    0.021    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\core\channel.o:41(poll)
+      745    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      736    0.003    0.000    0.003    0.000 j:\x9_tmp\x9\res\entities\client\helper\behaviorlodmanager.o:86(__call__)
+      229    0.000    0.000    0.000    0.000 {id}
+      172    0.000    0.000    0.000    0.000 {BigWorld.getFps}
+      170    0.000    0.000    0.000    0.000 {C_ui.do_command}
+      170    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:406(do_command)
+      157    0.000    0.000    0.000    0.000 {hasattr}
+      130    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      114    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1424(__running_get)
+       92    0.000    0.000    0.000    0.000 {BigWorld.entity}
+       92    0.000    0.000    0.000    0.000 {BigWorld.player}
+    86/17    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy.o:145(deepcopy)
+       85    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy.o:267(_keep_alive)
+       81    0.000    0.000    0.000    0.000 {BigWorld.time}
+       76    0.000    0.000    0.000    0.000 {BigWorld.callback}
+       64    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1406(__count_get)
+       64    0.000    0.000    0.000    0.000 {ResMgr.openSection}
+       57    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       54    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:294(get_visible)
+       54    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:333(__visible_get)
+       51    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy.o:198(_deepcopy_atomic)
+       47    0.000    0.000    0.000    0.000 {built-in method py_get_int8}
+       43    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1416(__delay_get)
+       37    0.000    0.000    0.000    0.000 {max}
+       37    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\rc.o:188(__getattr__)
+       36    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:725(__getattr__)
+       35    0.000    0.000    0.000    0.000 {min}
+       34    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:379(get_size)
+       32    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1448(run_func)
+       27    0.000    0.000    0.000    0.000 {isinstance}
+       26    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:335(__visible_set)
+       26    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:275(get_abs_coord)
+       25    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:151(_determine_import_context)
+       25    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       25    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:60(fget)
+       25    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:86(_import_hook)
+       25    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:605(get_hero)
+       24    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:74(__state_get)
+       24    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\collections.o:73(__iter__)
+       23    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:5061(_get_cash_internal)
+       23    0.000    0.000    0.000    0.000 {built-in method py_get}
+       22    0.000    0.000    0.000    0.000 {method 'iteritems' of 'dict' objects}
+       22    0.000    0.000    0.000    0.000 {range}
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2522(isAlive)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\fsmplayer.o:129(get_flag)
+       21    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:369(__height_get)
+       20    0.000    0.000    0.000    0.000 {time.clock}
+       20    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\aabb.o:9(minimum)
+       20    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\aabb.o:12(maximum)
+       19    0.000    0.000    0.000    0.000 {built-in method py_setRotateYPR}
+       18    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:257(set_coord)
+       18    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:268(_layout_aligns)
+       17    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:543(get_skill)
+       17    0.000    0.000    0.000    0.000 {built-in method py_normalise}
+       17    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2562(can_be_aim)
+       17    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy.o:234(_deepcopy_tuple)
+       16    0.000    0.000    0.000    0.000 {built-in method py___setstate__}
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:713(__image_set)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:564(fget)
+       16    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x02F61C80}
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:705(set_image)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\collections.o:116(itervalues)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\timermanager.o:107(_update_internal)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy_reg.o:92(__newobj__)
+       16    0.000    0.000    0.000    0.000 {issubclass}
+       16    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\timermanager.o:44(pop_ge)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\timermanager.o:98(_update)
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy.o:306(_reconstruct)
+       16    0.000    0.000    0.000    0.000 {method '__reduce_ex__' of 'object' objects}
+       16    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1801(fset)
+       15    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:263(__coord_set)
+       15    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       14    0.000    0.000    0.000    0.000 {callable}
+       14    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1951(__reverse_get)
+       13    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:286(__abscoord_get)
+       13    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:251(get_coord)
+       13    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:109(__visible_set)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:261(__coord_get)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:685(is_in_cd)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:204(init)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:562(state)
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:357(__alpha_get)
+       12    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:567(fset)
+       11    0.000    0.000    0.000    0.000 {built-in method py_clear}
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:192(set_clip_value)
+       11    0.000    0.000    0.000    0.000 {built-in method py_overCallback}
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:94(setEffOverCallback)
+       11    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1429(start)
+       10    0.000    0.000    0.000    0.000 {time.ctime}
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battleequippanel.o:352(update_cash)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1434(pause)
+       10    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\clienthookmanager.o:184(wrapped_func)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1441(stop)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\ray.o:21(pointInBox)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\logprint.o:18(input)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:832(get_skill_session)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:210(instance)
+       10    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\ray.o:8(__init__)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\throwskillmgr.o:107(is_in_throw_hit)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\ray.o:178(intersectAABB)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\aabb.o:5(__init__)
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:616(fget)
+       10    0.000    0.000    0.000    0.000 {built-in method py_applyVector}
+       10    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\ray.o:125(__intersectBox)
+       10    0.000    0.000    0.000    0.000 {abs}
+       10    0.000    0.000    0.000    0.000 {BigWorld.cancelCallback}
+        9    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:5928(cue_callback)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:266(need_to_clear_cue_block)
+        9    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:99(apply_cue)
+        9    0.000    0.000    0.000    0.000 {built-in method py_node}
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:4265(__num_set)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:343(get_cue_action)
+        9    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\iclient.o:234(cue_callback)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:106(face_to_position)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:118(data_convert)
+        9    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:305(client_set_yaw)
+        8    0.000    0.000    0.002    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:352(apply_cue)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:218(getPollInterval)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:159(on_skill_face)
+        8    0.000    0.000    0.000    0.000 {built-in method py_stop}
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:301(__entity_get)
+        8    0.000    0.000    0.000    0.000 {built-in method py_setIdentity}
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:378(get_ui)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:353(_do_import)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:265(_import_one)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\conditionalskilltip.o:112(_update)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\tx_importer.o:43(get_code)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:838(set_ing_value)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:823(on_hp_timer)
+        8    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\aim.o:281(_update)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1737(trigger_child_volumes)
+        8    0.000    0.000    0.042    0.005 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:246(<lambda>)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:183(adjustInterval)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:221(getPollTimeout)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\conditionalskilltip.o:80(check)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:1694(get_collide_info)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:245(get_avs)
+        8    0.000    0.000    0.042    0.005 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:244(poll)
+        8    0.003    0.000    0.042    0.005 j:\x9_tmp\x9\res\entities\client\debug\rpyc\utils\polling_server.o:147(poll2)
+        8    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\groupstatus.o:192(can_use_other_skill)
+        7    0.000    0.000    0.000    0.000 {built-in method py_get_bool}
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:696(_on_cd_run)
+        7    0.000    0.000    0.000    0.000 {math.ceil}
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\heroskillmgr.o:889(is_empty)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\heroskillmgr.o:850(get_now_skill)
+        7    0.000    0.000    0.015    0.002 j:\x9_tmp\x9\res\entities\client\icombat.o:1084(call_event_handler)
+        7    0.000    0.000    0.015    0.002 j:\x9_tmp\x9\res\entities\client\icombat.o:1140(event_callback)
+        7    0.000    0.000    0.015    0.002 j:\x9_tmp\x9\res\entities\client\iaicombat.o:501(event_callback)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1945(map_value)
+        7    0.000    0.000    0.015    0.002 j:\x9_tmp\x9\res\entities\client\icombat.o:1091(event_handler)
+        7    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1929(__rate_set)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\fashiontool.o:208(process_fashion_effect)
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1013(get_attacker_camp)
+        6    0.000    0.000    0.000    0.000 {built-in method py_setTranslate}
+        6    0.000    0.000    0.000    0.000 {built-in method py_set_int32}
+        6    0.000    0.000    0.000    0.000 {built-in method py_detach}
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:566(state_is_offline)
+        6    0.000    0.000    0.000    0.000 {built-in method py_postMultiply}
+        6    0.000    0.000    0.000    0.000 {BigWorld.collide}
+        6    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\fsmgame.o:623(get_server_time)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4096(_update_client_hp)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\callbackhelper.o:72(__call__)
+        5    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:109(_getEffect)
+        5    0.000    0.000    0.000    0.000 {Pixie.fetch}
+        5    0.000    0.000    0.000    0.000 {built-in method py_setTexture}
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:419(pre_iCombat_set_hp)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:574(load_image)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:1080(event_flag_actived)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:530(go_hp)
+        5    0.000    0.000    0.000    0.000 {built-in method py_create}
+        5    0.000    0.000    0.000    0.000 {built-in method py_attach}
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2903(set_hp)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1445(reset)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2899(_checkMiniMapFromHp)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:857(change_to)
+        5    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2873(_checkSpeedFromHp)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:311(__call_eff_delegate)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\soundvolumemgr.o:31(get_fx_volume)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:230(_finish_import)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1040(_target_filter_box)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:227(is_vo_sound)
+        4    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:833(attachEffect)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:319(Detach)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:561(set_hp)
+        4    0.000    0.000    0.000    0.000 {built-in method py_find_entities}
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:323(_load_tail)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1022(target_filter_box)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\callbackhelper.o:67(__init__)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battlemanager.o:522(__get_topui)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:405(on_name_update)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:311(__visible_get)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:192(get_visible)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:64(fset)
+        4    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:714(cue_effect)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:594(set_state_)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:30(get_ui)
+        4    0.000    0.000    0.000    0.000 {built-in method py_get_float}
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\actioncallback.o:5(__init__)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:210(correct_sound_name)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:141(_check_voice_lock)
+        4    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\notification\notificationcenter.o:96(subscribe_event)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battlemanager.o:671(update_hero_info)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:571(get_aim_info)
+        4    0.000    0.000    0.000    0.000 {built-in method py_flatDistTo}
+        4    0.000    0.000    0.000    0.000 {Sound.playFx}
+        4    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:243(play_fashion_sound)
+        4    0.000    0.000    0.000    0.000 {BigWorld.dcursor}
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:267(get_sound_volume)
+        4    0.000    0.000    0.000    0.000 {built-in method py_getCollisionFilterInfo}
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:151(_givebackEff)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:258(get_fashion_sound_mode)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:490(set_name_visible)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:66(instance)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:212(getEquProp)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\hkpshapev.o:61(__init__)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:578(get_skill_aim_info)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:582(__angle_set)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:129(apply_effect_scale)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\toppanelfive.o:103(update)
+      4/3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1996(on_volume_end)
+        4    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\imputil.o:335(_import_fromlist)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:177(_getEffInfo)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\toppanelfive.o:106(update_hero)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:324(get_attacker_camp)
+        4    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\guimanager.o:18(instance)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2549(canBeHit)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:240(init_skill_data)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:592(get_volume)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:228(init_damage_record)
+        3    0.000    0.000    0.002    0.001 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:89(__init__)
+        3    0.000    0.000    0.000    0.000 {Physics.getPenetrationsPh}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2632(_reset_idle)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\dummy_model.o:46(givebackDummyModel)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:2380(find_combatable_entities_with_shape)
+        3    0.000    0.000    0.000    0.000 {built-in method py_delModel}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:910(set_mask)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\monster.o:289(canBeHit)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:356(post_iAtkVolume_hit_test)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\editor_data\effect\effectmaxdelaytimefix.o:16(get_fix_duration)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1075(get_group)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:93(read_args)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:761(get_group)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1003(target_filter_trap)
+        3    0.000    0.000    0.000    0.000 {built-in method py_setAttachMode}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:913(wrapper)
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2436(get_volume_args)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:643(sound_adjust_hited)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:78(debug_print)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:3902(set_mask)
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:594(cue_sound)
+        3    0.000    0.000    0.000    0.000 {Havok.calcFilterInfo}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\cdmgr.o:51(instance)
+        3    0.000    0.000    0.000    0.000 {built-in method py_force}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\throwskillmgr.o:111(is_in_throw_atk)
+        3    0.000    0.000    0.002    0.001 j:\x9_tmp\x9\res\entities\client\avolume\volumemanager.o:42(create_avolume)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\groupstatus.o:505(check_substatus)
+        3    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:5661(get_flag_int)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\cdmgr.o:116(check)
+        3    0.000    0.000    0.015    0.005 j:\x9_tmp\x9\res\entities\client\icombat.o:1829(event_handler_atk)
+        3    0.000    0.000    0.014    0.005 j:\x9_tmp\x9\res\entities\client\icombat.o:2378(attack_volume_source)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:275(attachEffToNode)
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1083(hit_test)
+        3    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:1251(_add_delegate_for_effects)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:122(face_to_ent)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\cdmgr.o:22(check)
+        3    0.000    0.000    0.000    0.000 {built-in method py_set_int8}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\stopper.o:108(add)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:338(__destroyWorldEff)
+        3    0.000    0.000    0.014    0.005 j:\x9_tmp\x9\res\entities\client\icombat.o:2381(attack_volume_source_manual)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1704(init_child_volumes)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\mapconfig.o:90(getSpaceType)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\behaviordriver.o:185(update_halfbody_weight)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:3910(set_coord)
+        3    0.000    0.000    0.000    0.000 {built-in method py_set_float}
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:676(on_collide_all_entity)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1450(getSpaceNo)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\emptyentity.o:9(enterWorld)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:755(atr_check)
+        3    0.000    0.000    0.002    0.001 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:203(create_volume)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1610(get_volume_uuid)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\soundvolumemgr.o:40(instance)
+        3    0.011    0.004    0.013    0.004 j:\x9_tmp\x9\res\entities\client\icombat.o:2505(create_attack_volume)
+        3    0.000    0.000    0.000    0.000 {method 'difference' of 'set' objects}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\groupstatus.o:40(action_to_condition)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\stopper.o:21(add)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\rangedskilltargetpicker.o:19(equal)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:1317(rotate_vector)
+        3    0.000    0.000    0.000    0.000 {BigWorld.createEntity}
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\emptyentity.o:7(__init__)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4159(on_server_regen)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:834(set_value)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2750(<lambda>)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\soundvolumemgr.o:13(get_data)
+        3    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        3    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:352(always_check)
+        3    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:230(on_collide_all_entity)
+        2    0.000    0.000    0.000    0.000 {method 'itervalues' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:552(__image_get)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:786(attachEffToModelByFile)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\aim.o:368(_get_battle_target_with_super_picker)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:997(event_atk_box_created)
+        2    0.000    0.000    0.000    0.000 {built-in method py_scale}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\random.o:175(randrange)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:550(get_supper_aim_info)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:349(get_gid)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:422(getEntityCenter)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1949(unpackMoveDir)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:528(get_offset_by_yaw)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:657(post_attacker_damage)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:71(special_filter_target)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\stucksniffer.o:21(<lambda>)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:469(create_hooker_entity)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battleinfo.o:345(_changed)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:463(check_collide_scene)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:292(attachEffToModelByFile)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:767(confirm_target_filter)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:761(play_box_cues)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:524(get_curr_time)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\aimhelpermsg.o:54(hit_check)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\hkpshapev.o:182(get_wrapper_box2)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:143(calc_node_offset_matrix)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:859(transform_mat)
+        2    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:325(fetch_shoot_pos)
+        2    0.000    0.000    0.000    0.000 {built-in method py_dot}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:1312(get_yaw_vector)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:473(get_node_pos)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:2174(is_entity_validate)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:5925(start_skill_event)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xngui.o:117(__color_set)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\stucksniffer.o:43(_check_fps)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1616(create_shadow_avatar)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:396(handle_target_filter)
+        2    0.000    0.000    0.000    0.000 {built-in method py_getCurPayload}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:89(set_target_list)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:784(is_effect_visible)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\random.o:238(randint)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:1750(_compute_collide)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\hitsoundmgr.o:58(instance)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battleitemdlg.o:293(update_gold)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\color.o:130(convert_int_rgb)
+        2    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:169(conn_enabled)
+        2    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\iaicombat.o:368(fetch_atk_args)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battleequippanel.o:535(set_cash)
+        2    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1187(confirm_penetrate_mode)
+        2    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2278(fetch_chest_pos)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\entityspecial.o:90(handle_attack)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:143(refresh_yaw_enable)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:793(confirm_target_camp)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\stopper.o:69(on_delete)
+        2    0.000    0.000    0.000    0.000 {built-in method py_applyPoint}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:862(transform_mat_pos)
+        2    0.000    0.000    0.000    0.000 {built-in method py_calc_shape}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:855(pre_handle_box)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1613(init_stopper)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\hkpshapev.o:311(collide)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:518(check_front)
+        2    0.000    0.000    0.000    0.000 {built-in method py_getPitchMatrix}
+        2    0.000    0.000    0.000    0.000 {BigWorld.getWorldPosInScreen}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:196(fetch_aim_func)
+        2    0.000    0.000    0.000    0.000 {map}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battleequippanel.o:539(update_cash)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:877(handler_box_drop)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:361(always_check)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:895(create_atkbox)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\superpicker.o:509(get_bound)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\equipevolutionpanelv2.o:784(on_cash_changed)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hook\herohookcodemgr.o:339(__call__)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:848(transform_mat2_pos)
+        2    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:352(apply_attack)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1401(__curcount_get)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hook\herohookcodemgr.o:223(load)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:766(attachEffectFile)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\superpicker.o:207(pick)
+        2    0.000    0.000    0.000    0.000 {built-in method py_set}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:135(set_faced_id)
+        2    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:283(get_aim_shoot_pos)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\battleinfo.o:231(_on_cash_changed)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2621(set_move_dir)
+        2    0.000    0.000    0.000    0.000 {built-in method py_pick}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\mapconfig.o:107(isInArenaEx)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hook\herohookcodemgr.o:211(to_key_gen_default)
+        2    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:558(fetch_AI_aim_args)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:224(set_cash)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\debug\stucksniffer.o:34(_update)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:535(_do_damage)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:865(transform_mat2)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:311(get_subcue)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:636(attachEffectToNode)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:522(do_damage)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:27(instance)
+        2    0.000    0.000    0.000    0.000 {BigWorld.getScreenState}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\entityspecial.o:98(__lazy_call)
+        2    0.000    0.000    0.000    0.000 {BigWorld.getGameTimeInfo}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\gridcommon.o:162(__cd_get)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:232(correct_sound_pos)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:490(get_ball_cue_pos)
+        2    0.000    0.000    0.000    0.000 {built-in method py_rotateYPR}
+        2    0.000    0.000    0.000    0.000 {Physics.testPenetration}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:3160(current_visible)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:592(get_AI_aim_info)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hook\herohookcodemgr.o:217(to_key)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\client_services\uslogservice.o:341(pre_iAtkVolume_create_atkbox)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\entityspecial.o:94(handle_attack_with_box)
+        2    0.000    0.000    0.001    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:4799(set_cash)
+        2    0.000    0.000    0.000    0.000 {Physics.castRayRBOnly}
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:474(create_effect)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:994(get_hkpshapev)
+        2    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:172(conn_attach_effect)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:236(conn_event_target_hit)
+        1    0.000    0.000    0.000    0.000 {built-in method py_delEntityFow}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\asyncore.o:125(poll)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4176(_on_damage_from)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1594(get_textalign)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:393(apply_subcue)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\asyncore.o:324(readable)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:794(play_collide_eff)
+        1    0.000    0.000    0.000    0.000 {C_ui.minimap}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:67(read_args)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\meleedistancetip.o:268(_update)
+        1    0.000    0.000    0.000    0.000 {built-in method py_addModel}
+        1    0.000    0.000    0.000    0.000 {BigWorld.isPublishedVersion}
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\icombat.o:1328(event_handler_cue2)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\dummy_model.o:15(getDummyModel)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4645(server_use_combo)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4205(on_locked)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:774(confirm_target_group)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:1029(event_handler_sync)
+        1    0.000    0.000    0.000    0.000 {built-in method py_nodeList}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4105(on_skill_damage)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:804(correct_collide_pos)
+        1    0.000    0.000    0.000    0.000 {method 'iterkeys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\meleedistancetip.o:381(on_battle_target_changed)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\stringio.o:258(getvalue)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\followeffect.o:297(create_freed)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:861(event_target_hit)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\aim.o:410(_update_images)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\monster.o:256(set_hp)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\aim.o:405(_reset_visibility)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:4291(update)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\copy.o:253(_deepcopy_dict)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\utils.o:1649(isAttackFront)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:448(show_skill_hint_without_target)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:841(transform_flyingbox_pos)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:141(defaultOverCallback)
+        1    0.000    0.000    0.000    0.000 {sum}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1182(add_group_info)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:479(create_v)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\hitsoundmgr.o:32(apply)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\monster.o:110(get_monster_prop_data)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\fogofwar.o:172(entity_leave)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:29(__init__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:720(pre_check_penetrate)
+        1    0.000    0.000    0.000    0.000 {built-in method py_entityLeaved}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\emptyentity.o:12(leaveWorld)
+        1    0.000    0.000    0.000    0.000 {time.strftime}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\mapconfig.o:104(isInArena)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\superpicker.o:249(_filter_hook_type)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:49(handle_dummy_fade_shader)
+        1    0.000    0.000    0.000    0.000 {built-in method py_addMotor}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:4263(__num_get)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:420(attachEffectToWorld)
+        1    0.000    0.000    0.000    0.000 {built-in method py_filter_melee_distance_tip}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:157(stop_subcues_by_ent_id)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\aim.o:387(_check_entity)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:1408(check_tower)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1605(need_to_stop_hit)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\fsmplayer.o:1771(on_hited)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:1146(event_handler_hitground)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\fogofwar.o:133(set_minimap_fow_dist)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:716(on_collide_last_entity)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:220(_set_motor)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\skillcalc.o:448(unpack_damage_flag)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4191(dmg_show_hpbar)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:170(_on_damage_from)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\monster.o:442(on_hited)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\monster.o:249(on_skill_damage)
+        1    0.000    0.000    0.000    0.000 {built-in method py_setHP}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:440(get_go_end)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:2412(keygen)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:738(get_text)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:360(create_bouncer)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\hitsoundmgr.o:27(apply_by_info)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\debug\stucksniffer.o:52(_dump)
+        1    0.000    0.000    0.000    0.000 {built-in method py_send_event}
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:250(create_follow_volume)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1233(fetch_offset)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\behaviorlodmanager.o:80(can_skip_hit)
+        1    0.000    0.000    0.000    0.000 {math.radians}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:622(__destroyNodeEff)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:93(apply_attack_ex)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:90(fetch_aim_func)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:3277(current_alpha)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:5065(_set_cash_internal)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:750(__text_get)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\monster.o:406(client_move_cb)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:418(_run_cue)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:423(server_use_combo)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:123(make_ent_fly)
+        1    0.000    0.000    0.000    0.000 {built-in method py_set_bool}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:230(set_totalCash)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:933(cue_mount_weapon)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:501(create_hit_effect)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\groupstatus.o:462(has)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4361(skill_be_host)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2642(set_flag)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:870(before_entity_destroy)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:5016(hit_one_for_viewer)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\editor_data\effect\effectmaxdelaytimefix.o:9(can_be_fix)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\skillcalc.o:55(getSkillData)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:850(attach_effect)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:118(next_missilery_uuid)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\superpicker.o:49(<lambda>)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\followeffect.o:320(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method py_distTo}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\fsmplayer.o:1479(fetch_fixed_offset_dest)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\logic\aimhandler.o:42(get_random_pos)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:542(stop_subcues_by_ent_id)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:325(conn_get_visible)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1612(set_text)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\effectmgr.o:163(doGiveBack)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\gt\gtdispatcher.o:112(writable)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1425(hurt_one)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\weaponmodel.o:103(pull_sword)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:366(__width_get)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:4253(__align_get)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\hitsoundmgr.o:44(get_pos)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:740(set_text)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:181(set_flag)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:5027(ai_hit_one_for_viewer)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\followeffect.o:518(__init__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:5141(getEquProp)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:322(conn_get_start_node)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:112(start_face)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\meleedistancetip.o:287(_update_tip_entities)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\locktargetflyeffect.o:749(show_fly_effect_ex)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:437(get_fly_delay)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:500(focus)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:14(connector_handler)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:41(read_args)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:33(__getattr__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\fsmplayer.o:116(set_flag)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:1162(set_next_standup_time)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:27(__init__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\battle\centerui.o:473(show_skill_hint_with_target)
+        1    0.000    0.000    0.000    0.000 {time.localtime}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:3352(get_material)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\common\lib\cprofile.o:83(dump_stats)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\tw2.o:337(loginSocketTick)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:538(init_stopper)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\debug\stucksniffer.o:59(_get_time)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\hero.o:5077(gain_cash)
+        1    0.000    0.000    0.000    0.000 {built-in method py_estimatePath}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:518(destroy_entity)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\toplogo.o:564(show_gold)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:907(create_follow_volume)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1545(on_target_hit)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\gridcommon.o:186(on_cd_timer)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:1172(perf_hurt_one)
+        1    0.001    0.001    0.001    0.001 {open}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:541(stop)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:752(__text_set)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\meleedistancetip.o:134(_on_flag_changed)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:2212(event_handler_freeze_float_end)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:133(create_fly_ent)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:892(can_pre_show_result)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:136(create_effect_entity)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:2411(rank_entities)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:433(_apply_subcue_normal)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\skillcalc.o:37(__init__)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:163(attach_effect)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\icombat.o:4134(on_server_damage)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:34(_connector_handler)
+        1    0.000    0.000    0.001    0.001 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:86(apply_attack_ex)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\stringio.o:38(_complain_ifclosed)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:86(clear_cue_block)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1578(__textalign_get)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\missilery.o:169(set_fly_effect)
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:163(apply_subcue)
+        1    0.000    0.000    0.000    0.000 {built-in method py_find_entities_for_melee_distance_tip}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\guis\xnui.o:1628(get_abs_coord)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\fsmplayer.o:1295(_fetch_fixed_offset_dest)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\groupstatus.o:391(name2index)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\asyncore.o:205(loop)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:319(conn_get_src_id)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\common\lib\cprofile.o:90(create_stats)
+        1    0.000    0.000    0.000    0.000 {BigWorld.destroyEntity}
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:374(active_subcue)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:49(init_skill_data)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\ball.o:75(fetch_aim_func)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\dummy_model.o:64(getDummyModel)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iatkvolume.o:285(stop)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\iaicombat.o:118(stop_face)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\captain\skillmanager.o:598(get_offset)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\clientutils.o:2368(find_combatable_entities_with_point)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\helper\superpicker.o:549(_filter_entity)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\effect\cueeffmgr.o:1005(cue_hit_sound)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\avolume\iconnector.o:286(conn_before_entity_destroy)
+        1    0.000    0.000    0.000    0.000 j:\x9_tmp\x9\res\entities\client\fsmplayer.o:1667(hited_idle_filter)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
